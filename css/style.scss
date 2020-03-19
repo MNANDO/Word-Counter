@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary": #4ee97d,
+  "danger": #ff4136,
+  "custom-color": #900
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom CSS
+body {
+    textarea {
+        resize: none;
+    }
+}

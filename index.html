@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Word Counter</title>
+</head>
+<body>
+    <header style="margin: 30px;">
+        <h1 class="display-2 text-center">Word Counter</h1>
+        <p class="lead text-center ">Paste words inside of the given text box. Then click submit to count them.</p>
+    </header>
+    <div class="input-group mx-auto d-block w-50">
+        <textarea id="word-box" class="rounded mx-auto d-block w-100" style="height: 650px; margin-bottom: 20px;"></textarea>
+        <button id="submit" type="button" class="btn-lg btn-primary" style="float: right;">Submit</button>
+    </div>
+    <section>
+        <div class="word-count text-center w-75 m-5">
+            <h3 class="d-inline" style="display: inline;">Word Count: </h3>
+            <h3 id="count" class="d-inline count" style="display: inline;">0</h3>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
